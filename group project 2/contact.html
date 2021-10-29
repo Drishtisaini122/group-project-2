@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Page</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+body {
+    font-family: 'Ephesis', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://images.unsplash.com/photo-1610962381137-50ef93055125?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        background-size: cover;
+    }
+     
+    
+     .list {
+        background-color:black;
+        margin-top: 0px;
+        display: block;
+        border-radius: 35px;
+        width: 96%;
+       
+        margin-left: 40px;
+        
+    }
+ .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+       
+        display: inline-block;
+        font-size: 33px;
+    }
+
+    .navbar li a {
+        color: white;
+
+        padding: 34px 23px;
+        font-family: 'Ephesis', cursive;
+
+    }
+
+    .navbar li a:hover
+     {
+        text-decoration: underline;
+        color:aqua;
+
+    }
+    .btn { 
+         font-family: 'Ephesis', cursive;
+        margin:0, 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+    .container {
+        text-align: center;
+        border: 2px solid white;
+        margin: 76px 80px;
+        padding: 75px;
+        width: 23%;
+        border-radius: 20px;
+        margin-left: 450px;
+        background-color: rgba(0, 0, 0, 0.397);
+
+
+    }
+    
+    label{
+        font-size: 30px;
+        color:white;
+        font-weight:bold;
+    }
+    button{font-size: 20px;
+
+    }
+p{
+    font-size: 30px;
+    color:black;
+        font-weight:bold;
+
+}
+.hi{
+    float: right;
+    margin-left: 300px;
+}
+h1{
+    color:white;
+    font-size: 45px;
+        font-weight:bold;
+    
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.logo{
+   
+    
+    width:40%;
+    background-color: black;
+}
+.content{
+    color: white;
+    font-size:25px;
+   
+}
+.Add{
+    
+    width:60%;
+  
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.Add a{
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.Add a:hover{
+    color: rgb(22, 233, 33);
+   
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+   width: 100%;
+  
+   color: black;
+   text-align: center;
+}
+
+
+
+
+
+
+    
+    
+    
+</style>
+</head>
+
+<body>
+ 
+<div class="list">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="hi">
+
+                    <button class="btn">Call Us Now</button>
+                    <button class="btn">Email Us</button>
+                </div>
+            </ul>
+        </div>
+        
+        
+        
+        <div class="container">
+            <center>
+            <form>
+                <h1>Contact Us</h1>
+            <label for="name">Name</label><br>
+            <input type="text" name="" placeholder="Enter your Name"><br>
+            <label for="age">Age</label><br>
+            <input type="text" name="" placeholder="Enter your Age"><br>
+            <label for="name">Email</label><br>
+            <input type="text" name="" placeholder="Enter your Email"><br>
+            <label for="mobileno"><b>Mobile No.</b></label><br>
+            <input type="text" placeholder="Enter Your Mobile No" ><br>
+            <label for="query"><b>Your Query</b></label><br>
+            <textarea placeholder="Enter Your Query"></textarea><br>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+            
+              
+              
+          
+              <div >
+                <button type="button" class="cancelbtn"  >Cancel</button>
+                <button type="submit" class="signupbtn"
+                onclick="alert('Submitted Successfully')">Submit</button>
+              </div>
+        </form>
+    </center>
+
+        </div>
+
+        <div class="footer">
+            <div class="logo">
+                <h1 class="content"> Get In Touch With Us<br>
+                    can contact us through the given below social media links
+                </h1>
+                
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                
+            </div>
+           <div class="Add">
+                <h1 class="content"> Additional LinkS<br>
+                </h1>
+                <a href="#" >Terms and Conditions</a><br>
+                <a href="#" >Privacy Policy</a><br>
+                <a href="#" >News</a><br>
+               
+        </div>
+       
+          
+
+
+
+
+
+
+
+</body>
+
+</html>

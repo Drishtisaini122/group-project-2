@@ -1,0 +1,70 @@
+body {
+    margin: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(https://images.unsplash.com/photo-1610962381137-50ef93055125?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1610962381137-50ef93055125?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100vw;
+    height: 72vh;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    margin: 10px;
+    padding: 3px;
+    color: white;
+}
+
+.course-img {
+    height: 30vh;
+    width: 16vw;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    width: 200px;
+    border: 2px solid white;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: inline;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.course {
+    display: inline;
+    float: right;
+    padding-right: 40px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: orange;
+    cursor: pointer;
+}
